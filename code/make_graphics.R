@@ -6,7 +6,7 @@ df <- read.csv('complexity_measures_w_component.tsv',sep=',')
 
 df$language <- gsub('_',' ',df$language)
 
-artificial.df <- read.csv('../optimal_values.csv')
+artificial.df <- read.csv('../numerals-public/optimal_values.csv')
 
 artificial.df <- unique(artificial.df[,-1])
 

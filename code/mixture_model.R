@@ -25,9 +25,9 @@ transformed parameters {
   }
 }
 model {
-  beta_0 ~ normal(0,.1);
-  beta ~ normal(0,.1);
-  sigma ~ normal(0,.1);
+  beta_0 ~ normal(0,1);
+  beta ~ normal(0,1);
+  sigma ~ normal(0,1);
   target += sum(log_lik);
 }
 generated quantities {
