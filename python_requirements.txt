@@ -1,4 +1,2 @@
-os
-numpy
-collections
-pycldf
+numpy==2.4.2
+pycldf==1.43.0
